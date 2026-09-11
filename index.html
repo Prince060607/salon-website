@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Glow & Style Salon</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <h1>✨ Glow & Style</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <h2>Look Good. Feel Amazing.</h2>
+
+        <p>
+            Professional beauty and salon services for you.
+        </p>
+
+        <button onclick="bookAppointment()">
+            Book Appointment
+        </button>
+
+    </section>
+
+
+    <!-- APPOINTMENT FORM -->
+    <div id="appointmentForm" class="appointment-form">
+
+        <h2>Book Your Appointment</h2>
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+        >
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="Mobile Number"
+        >
+
+        <select id="service">
+
+            <option value="">
+                Select Service
+            </option>
+
+            <option>
+                Haircut
+            </option>
+
+            <option>
+                Hair Spa
+            </option>
+
+            <option>
+                Facial
+            </option>
+
+            <option>
+                Hair Styling
+            </option>
+
+            <option>
+                Manicure
+            </option>
+
+            <option>
+                Head Massage
+            </option>
+
+        </select>
+
+        <input
+            type="date"
+            id="date"
+        >
+
+        <button onclick="submitAppointment()">
+            Confirm Appointment
+        </button>
+
+    </div>
+
+
+    <!-- SERVICES -->
+    <section id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="services">
+
+
+            <div class="card">
+
+                <h3>✂️ Haircut</h3>
+
+                <p>
+                    Professional haircut and styling.
+                </p>
+
+                <h4>₹299</h4>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>💆 Hair Spa</h3>
+
+                <p>
+                    Relaxing hair spa treatment.
+                </p>
+
+                <h4>₹699</h4>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>✨ Facial</h3>
+
+                <p>
+                    Refreshing facial treatment.
+                </p>
+
+                <h4>₹599</h4>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>💇 Hair Styling</h3>
+
+                <p>
+                    Modern styling for every occasion.
+                </p>
+
+                <h4>₹399</h4>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>💅 Manicure</h3>
+
+                <p>
+                    Professional nail care treatment.
+                </p>
+
+                <h4>₹499</h4>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>🧖 Head Massage</h3>
+
+                <p>
+                    Relaxing head and scalp massage.
+                </p>
+
+                <h4>₹249</h4>
+
+            </div>
+
+
+        </div>
+
+    </section>
+<!-- GALLERY -->
+<section id="gallery">
+
+    <h2>Our Gallery</h2>
+
+    <div class="gallery">
+
+        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80" alt="Salon">
+
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80" alt="Salon Interior">
+
+        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Hair Styling">
+
+        <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=800&q=80" alt="Beauty Salon">
+
+    </div>
+
+</section>
+
+    <!-- ABOUT -->
+    <section id="about">
+
+        <h2>About Us</h2>
+
+       <p>
+    Welcome to Glow & Style Salon — your destination for
+    professional beauty, hair and grooming services.
+    Our experienced team focuses on quality service,
+    comfort and a relaxing salon experience for every guest.
+</p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>📞 8210077812</p>
+
+    <p>📍 Noida, Uttar Pradesh</p>
+
+    <div class="contact-buttons">
+
+        <a href="tel:+8210077812">
+            <button>📞 Call Us</button>
+        </a>
+
+        <a href="https://wa.me/918210077812" target="_blank">
+            <button>💬 WhatsApp Us</button>
+        </a>
+
+    </div>
+
+</section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Glow & Style Salon
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
